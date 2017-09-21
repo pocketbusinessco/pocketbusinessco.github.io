@@ -1,0 +1,109 @@
+/* ExtraLight */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Source Sans Pro ExtraLight'),
+       url('../assets/fnt/SourceSansPro-ExtraLight.woff') format('woff'),
+       url('../assets/fnt/SourceSansPro-ExtraLight.ttf')  format('truetype');
+}
+
+/* Light */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'),
+       url('../assets/fnt/SourceSansPro-Light.woff') format('woff'),
+       url('../assets/fnt/SourceSansPro-Light.ttf')  format('truetype');
+}
+
+/* Regular */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'),
+       url('../assets/fnt/SourceSansPro-Regular.woff') format('woff'),
+       url('../assets/fnt/SourceSansPro-Regular.ttf')  format('truetype');
+}
+
+/* Semibold */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold'),
+       url('../assets/fnt/SourceSansPro-Semibold.woff') format('woff'),
+       url('../assets/fnt/SourceSansPro-Semibold.ttf')  format('truetype');
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'),
+       url('../assets/fnt/SourceSansPro-Bold.woff') format('woff'),
+       url('../assets/fnt/SourceSansPro-Bold.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fnt/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url('../assets/fnt/MaterialIcons-Regular.woff2') format('woff2'),
+       url('../assets/fnt/MaterialIcons-Regular.woff')  format('woff'),
+       url('../assets/fnt/MaterialIcons-Regular.ttf')   format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Regular */
+@font-face {
+  font-family: 'Gulim';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gulim'),
+       url('../assets/fnt/Gulim.ttf')  format('truetype');
+}
+
+h1, h2, h3 {
+  font-family: 'Gulim';
+}
+
+h1.logo span {
+  color: rgb(43,152,240);
+}
+
+h1.logo svg {
+  fill: rgb(43,152,240) !important;
+  height: 52px;
+  width: 52px;
+}
